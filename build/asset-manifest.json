@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/voice-of-a-nation/build/static/css/main.194a7efe.chunk.css",
+    "main.js": "/voice-of-a-nation/build/static/js/main.5a07a692.chunk.js",
+    "main.js.map": "/voice-of-a-nation/build/static/js/main.5a07a692.chunk.js.map",
+    "runtime-main.js": "/voice-of-a-nation/build/static/js/runtime-main.1a20ec7b.js",
+    "runtime-main.js.map": "/voice-of-a-nation/build/static/js/runtime-main.1a20ec7b.js.map",
+    "static/js/2.54e4de7c.chunk.js": "/voice-of-a-nation/build/static/js/2.54e4de7c.chunk.js",
+    "static/js/2.54e4de7c.chunk.js.map": "/voice-of-a-nation/build/static/js/2.54e4de7c.chunk.js.map",
+    "index.html": "/voice-of-a-nation/build/index.html",
+    "precache-manifest.f220a25859cb8f9f20cb9199a9f7a492.js": "/voice-of-a-nation/build/precache-manifest.f220a25859cb8f9f20cb9199a9f7a492.js",
+    "service-worker.js": "/voice-of-a-nation/build/service-worker.js",
+    "static/css/main.194a7efe.chunk.css.map": "/voice-of-a-nation/build/static/css/main.194a7efe.chunk.css.map"
+  }
+}
