@@ -11,14 +11,14 @@ var model_options = [
   {"label": "Topic Model (no dialect)", "value": "topic_nodialect"},
   {"label": "Document Clustering", "value": "cluster"},
   {"label": "Document Clustering (no dialect)", "value": "cluster_nodialect"},
-  {"label": "Document Clustering (balanced)", "value": "cluster_balance"},
-  {"label": "Document Clustering (no dialect; balanced)", "value": "cluster_nodialect_balance"},
 ]
 
 var meta_options = [
   {"label": "Proportion", "value": "proportion"},
   {"label": "Gender", "value": "gender"},
   {"label": "Race", "value": "race"},
+  {"label": "Gender (writer)", "value": "gender_writer"},
+  {"label": "Race (writer)", "value": "race_writer"},
 ]
 
 function ListBar(props) {
@@ -235,6 +235,18 @@ class TopicContainer extends React.Component {
         weights = this.state.td.all.map(val => {return(val.proportion_black)});
         console.log(this.state.td.all[0])
         weights_name = "proportion black interviewees";
+      }
+      if (this.state.selectedMetaOption.value === "gender_writer")
+      {
+        weights = this.state.td.all.map(val => {return(val.proportion_women_writer)});
+        console.log(this.state.td.all[0])
+        weights_name = "proportion female writers";
+      }
+      if (this.state.selectedMetaOption.value === "race_writer")
+      {
+        weights = this.state.td.all.map(val => {return(val.proportion_black_writer)});
+        console.log(this.state.td.all[0])
+        weights_name = "proportion black writers";
       }
 
       topicpart = (
